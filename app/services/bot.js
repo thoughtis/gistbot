@@ -52,7 +52,7 @@ controller.setupWebserver(config.port, (err, webserver) => {
 
     controller.createWebhookEndpoints(controller.webserver);
 
-    webserver.post('/slack/receive', (req, res) => {
+    webserver.post('/slack', (req, res) => {
 
         res.status(200);
         controller.handleWebhookPayload(req, res);

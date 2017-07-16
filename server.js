@@ -6,7 +6,7 @@ let BotService = require('./app/services/bot');
  */
 
 let boot = () => {
-  console.log('booted!');
+  require('./app/skills/smallTalk').skill(BotService);
 }
 
 /**
