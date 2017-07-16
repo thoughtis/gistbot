@@ -1,0 +1,13 @@
+{
+  "name": "gistbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "^0.5.5"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development nodemon server.js",
+    "production": "NODE_ENV=production pm2 start /var/www/qc-bot/server.js -n qcbot --max-memory-restart 240M"
+  }  
+}
