@@ -3,7 +3,7 @@
 ## Getting Started
 Honestly I'm super sorry this is the longest getting started guide. Open to PR that can help make it shorter!
 
-### Prerequisites
+### Development Environment
 
 #### Install Ngrok
 
