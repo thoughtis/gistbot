@@ -1,4 +1,4 @@
-module.exports.skill = function(controller) {
+module.exports.skill = (controller) => {
 
 	let smallTalk = [
 		{
@@ -9,7 +9,7 @@ module.exports.skill = function(controller) {
 
 	smallTalk.map((talk, idx) => {
 
-		controller.hears(talk.pattern, ['direct_message', 'direct_mention', 'mention'], function( bot, message ) {
+		controller.hears(talk.pattern, ['direct_message', 'direct_mention', 'mention'], ( bot, message ) => {
 
 			bot.reply(message, talk.response);
 
