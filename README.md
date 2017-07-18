@@ -92,6 +92,6 @@ Check out our sites
 - [quotecatalog.com](https://quotecatalog.com)
 - [thoughtcatalog.com](https://thoughtcatalog.com)
 - [shopcatalog.com](https://shopcatalog.com)
-- [thoughtis](https://thought.is)
+- [thought.is](https://thought.is)
 
 Please reachout to clint@thought.is or jobs@thought.is for more details!
