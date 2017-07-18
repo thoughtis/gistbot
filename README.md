@@ -86,4 +86,12 @@ ex. https://api.slack.com/apps/xxx/event-subscriptions
 7. Paste new Ngrok URL in `Request URL`
 
 ## We're Hiring
-Are you looking to work on chatbots, API's and cool frontend app's? We are hiring. Please reachout to clint@thought.is for more details.
+Are you looking to work on chatbots, API's and cool frontend app's? We are hiring.
+
+Check out our sites
+- [quotecatalog.com](https://quotecatalog.com)
+- [thoughtcatalog.com](https://thoughtcatalog.com)
+- [shopcatalog.com](https://shopcatalog.com)
+- [thoughtis](https://thought.is)
+
+Please reachout to clint@thought.is or jobs@thought.is for more details!
