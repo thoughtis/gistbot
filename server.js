@@ -6,7 +6,18 @@ let BotService = require('./app/services/bot');
  */
 
 let boot = () => {
+	
   require('./app/skills/smallTalk').skill(BotService);
+  
+  /**
+   * If you want to see a more advanced example update your .env file to 
+   * enable the github gist demo, there are extra steps in the README to do so
+   */
+  
+  if( config.githubDemoEnabled ) {
+  	require('./app/skills/new').skill(BotService);
+  }
+
 }
 
 /**
