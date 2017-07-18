@@ -1,7 +1,10 @@
 # gistbot
+Just mention or DM @gistbot in any channel and it will upload a new Github Gist for you!
+
+<img width="631" alt="screen shot 2017-07-17 at 9 51 35 pm" src="https://user-images.githubusercontent.com/523933/28297123-2e861d36-6b3a-11e7-86b2-31efe13ddb74.png">
 
 ## Getting Started
-Honestly I'm super sorry this is the longest getting started guide. Open to PR that can help make it shorter!
+This is the longest getting started guide, but AFAIK there isn't an easier setup flow. Open to PR that can help make it shorter!
 
 ### Development Environment
 
@@ -81,3 +84,6 @@ ex. https://api.slack.com/apps/xxx/event-subscriptions
 5. Go to `Features > Event Subscriptions`
 6. Click Change in `Request URL`
 7. Paste new Ngrok URL in `Request URL`
+
+## We're Hiring
+Are you looking to work on chatbots, API's and cool frontend app's? We are hiring. Please reachout to clint@thought.is for more details.
