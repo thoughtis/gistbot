@@ -9,7 +9,16 @@ module.exports.skill = (controller) => {
 
 		let askQuestion = (response, convo) => {
 
-			convo.ask({ text: `Please upload a file you'd like a *gist* for!`}, (response, convo) => {
+			convo.ask({
+				attachments: [
+					{
+						title: 'Send me a file!',
+						color: '#0079ba',
+						text: 'Just to note your new gist will be public!',
+						attachment_type: 'default',
+					}
+				]
+			}, (response, convo) => {
 
 				api.downloadFile( 
 					response.file.name, 
@@ -37,18 +46,18 @@ module.exports.skill = (controller) => {
 						.end((err, res) => {
 
 							if(err) {
-								convo.say('There was an error! Maybe try again????');
+								convo.say(`Oops something went wrong and I'm just a bot!`);
 								convo.next();
 							}
 
-							convo.say(`Ya! Ya! Ya! Here's a gist for you! ${ res.body.html_url }`);
+							convo.say(`✌️ Dang, here is a new a gist for you! ${ res.body.html_url }`);
 							convo.next();
 
 						})
 
 				}).catch((err) => {
 
-					convo.say('There was an error! Maybe try again????');
+					convo.say(`Oops something went wrong and I'm just a bot!`);
 					convo.next();
 
 				})
