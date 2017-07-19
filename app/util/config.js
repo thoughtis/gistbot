@@ -7,11 +7,11 @@ if( env === production ) {
 	 */
 	
 	module.exports = {
-    protocol: process.env.protocol
-    host: process.env.host
-    port: process.env.port
-    token: process.env.token
-    clientId: process.env.clientId
+    protocol: process.env.protocol,
+    host: process.env.host,
+    port: process.env.port,
+    token: process.env.token,
+    clientId: process.env.clientId,
     clientSecret: process.env.clientSecret
 	}
 
