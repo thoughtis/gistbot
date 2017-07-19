@@ -7,6 +7,8 @@ module.exports.skill = (controller) => {
 
 	controller.hears('new gist', ['direct_message', 'direct_mention', 'mention'], ( bot, message ) => {
 
+		console.log('herrrrd');
+
 		let askQuestion = (response, convo) => {
 
 			convo.ask({
