@@ -1,6 +1,6 @@
 let env = process.env.NODE_ENV || 'development';
 
-if( env === production ) {
+if( 'production' === env ) {
 
 	/**
 	 * Heroku Stuff
