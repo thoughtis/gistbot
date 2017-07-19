@@ -9,7 +9,7 @@ if( 'production' === env ) {
 	module.exports = {
     protocol: process.env.protocol,
     host: process.env.host,
-    port: process.env.port,
+    port: process.env.PORT,
     token: process.env.token,
     clientId: process.env.clientId,
     clientSecret: process.env.clientSecret
